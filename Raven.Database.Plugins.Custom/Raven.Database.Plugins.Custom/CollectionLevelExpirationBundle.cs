@@ -53,7 +53,8 @@ namespace Raven.Database.Plugins.Custom
                 Logger.ErrorException("CollectionLevelExpirationBundle.HandleWork failed while trying to find and remove old documents", ex);
             }
 
-            return true;
+            // return false == there is no work left to do
+            return false;
         }
 
         protected override TimeSpan TimeoutForNextWork()
