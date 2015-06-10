@@ -9,5 +9,4 @@ For the demonstration I've inherit the "AbstractBackgroundTask" class that imple
 Another thing you can find here is how to log your traces/exceptions using RavenDB logger.  
 
 Read more:
-* http://ravendb.net/kb/56/expiration-bundle-at-the-collection-level
 * http://ravendb.net/docs/2.0/server/extending/plugins
